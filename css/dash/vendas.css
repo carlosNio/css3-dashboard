@@ -1,0 +1,51 @@
+#actions {
+  padding: 6px;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+#actions a {
+  padding: 9px;
+  margin: 3px;
+  border-radius: 5px;
+  color: teal;
+  border: 1px solid #aaa;
+}
+
+#actions a:hover {
+  background-color: teal;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    display: flex;
+    justify-content: space-between;
+  }
+  #sidebar button {
+    display: block !important;
+  }
+  #sidebar nav {
+    display: none;
+    padding: 6px;
+  }
+  #content #header {
+    box-shadow: none;
+  }
+  #content #header #user {
+    display: none;
+  }
+  #content #status {
+    display: block;
+  }
+  #content #status .status-box {
+    margin-top: 25px !important;
+  }
+  #content #status .status-box div:nth-child(2) {
+    border-radius: 50px;
+  }
+  #charts div {
+    margin-top: 15px;
+  }
+}
+/*# sourceMappingURL=vendas.css.map */

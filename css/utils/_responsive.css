@@ -1,0 +1,47 @@
+/* MEDIA QUERYS */
+
+/* phones */
+@media only screen and (max-width: 600px) {
+
+    
+}
+
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+
+}
+
+
+/* large */
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    
+
+
+}
+
+
+/* extra large */
+
+@media only screen and (min-width: 1201px) {
+    
+
+
+}
+
+/* tablets and up */
+
+@media only screen and (min-width: 601px) {
+   
+
+
+}
+
+/* tablets and down */
+
+@media only screen and (max-width: 992px) {
+
+
+
+}
