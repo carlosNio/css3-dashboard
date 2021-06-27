@@ -1,0 +1,4 @@
+fontawesome icons is required for the icons used into them
+you must include your local fontawesome lib or rewrite for use a cdn
+
+if you have local files you must create a folder named 'libs' inside 'css/'.
